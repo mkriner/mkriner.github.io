@@ -1,0 +1,317 @@
+#+OPTIONS: num:nil toc:nil
+#+REVEAL_CONTROL: t
+#+REVEAL_TRANS: None
+#+REVEAL_THEME: default
+
+ # Slide 1
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide1.png
+:reveal_background_size: 1000px
+:reveal_background_trans: none
+:END:
+
+ #+BEGIN_NOTES
+Good afternoon, everyone.
+ #+END_NOTES
+
+# Slide 2
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide2.png
+:reveal_background_size: 1000px
+:reveal_background_trans: none
+:END:
+
+ #+BEGIN_NOTES
+My lab studies how mRNA translation is regulated using a combination of experimental and computational approaches. 
+ #+END_NOTES
+
+# Slide 3
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide3.png
+:reveal_background_size: 1000px
+:reveal_background_trans: slide
+:END:
+
+ #+BEGIN_NOTES
+ We have been focusing on the step of translation elongation. Core elongation factors are highly conserved across life. We want to understand the biophysical constraints that underlie this strong evolutionary conservation, and we work across three experimental models: E. coli, yeast, and mammalian cells.
+ #+END_NOTES
+
+# Slide 4
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide4.png
+:reveal_background_size: 1000px
+:reveal_background_trans: slide
+:END:
+
+ #+BEGIN_NOTES
+We started with the question of what effect does codon choice have on translation. 18 of the 20 amino acids have multiple synonymous codons.
+ #+END_NOTES
+
+# Slide 5
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide5.png
+:reveal_background_size: 1000px
+:reveal_background_trans: slide
+:END:
+
+ #+BEGIN_NOTES
+In our previous work, we found that certain codons, such as CUA here, result in much lower protein expression compared to other codons like CUG, specifically when bacteria are starving for the cognate amino acid, which is leucine in this case. Using a genomic approach called ribosome profiling, we also found that the codons that shut down protein expression are the ones where ribosomes pause strongly under these conditions. 
+
+These results raised the question of how does ribosome pausing lead to a decrease in protein expression. 
+ #+END_NOTES
+
+# Slide 6
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide6.png
+:reveal_background_size: 1000px
+:reveal_background_trans: slide
+:END:
+
+ #+BEGIN_NOTES
+Max Ferrin, a talented technician in my lab, who just left grad school, worked on this question over the past two years. I will summarize his findings that are relevent to my talk today. He found that two popular models for how ribosome pausing affects protein expression, traffic jams and simple abortive termination, are quantitatively inconsistent with our data. His findings led us to a new model in which ribosome collisions have an active role in abortive termination of the stalled ribosome.
+
+The key idea, that came from computational modeling, was that we could discriminate these three models, by not looking at the effect of one ribosome stall site on protein expression, but at effect of multiple stall sites. The three models also had qualitatively different predictions when the initiation rate of the mRNA was varied. 
+
+These results led us to the question of whether a similar combination of experiments and modeling can be informative to understand translation regulation in eukaryotes.
+ #+END_NOTES
+
+# Slide 7
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide7.png
+:reveal_background_size: 1000px
+:reveal_background_trans: slide
+:END:
+
+ #+BEGIN_NOTES
+ In the past few years, several studies have revealed that codon usage regulates mRNA stability in eukaryotes. The consensus seems to be that optimal codons that have abundant tRNAs lead to longer mRNA half-life in organisms as different as yeast, zebra fish and mammals.
+ 
+ #+END_NOTES
+
+# Slide 8
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide8.png
+:reveal_background_size: 1000px
+:reveal_background_trans: slide
+:END:
+
+ #+BEGIN_NOTES
+ However, the actual mechanism of how this works is unclear. For example, it was seen that ribsome stalls near the 3' end of the mRNA have a bigger effect on half-life that stalls at 5' end. Also, the qualitative and quantitative effect of ribosome stalls on mRNA stability was very different from their effect on protein expression, as you see between these graphs here. 
+ 
+ #+END_NOTES
+
+# Slide 9
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide9.png
+:reveal_background_size: 1000px
+:reveal_background_trans: slide
+:END:
+
+ #+BEGIN_NOTES
+ Heungwon Park, who is a postdoc fellow in my lab, wanted to study this problem by measuring protein expression carefully in yeast. So he introduced ribosomes stalls at one of 5 different locations along a PGK1-YFP fusion. The stalls were encoded by a stretch of either 3, 4, or 5 non-optimal CGG codons in place of optimal AGA codons. As expected introducing longer repeats of CGG codons decreased protein expression more. He also saw that the two stalls near AUG had a smaller effect on protein levels than the othe 3 stalls. 
+ 
+ However, he saw something really suprising when he made pair-wise combinations of these stalls. 
+ #+END_NOTES
+
+# Slide 10
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide10.png
+:reveal_background_size: 1000px
+:reveal_background_trans: slide
+:END:
+
+ #+BEGIN_NOTES
+Pairwise combinations within the two 5' stall sites or within the 3 3' stall sites had lower which were both on 5' or 3' side  
+ 
+ #+END_NOTES
+
+# Slide 11
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide11.png
+:reveal_background_size: 1000px
+:reveal_background_trans: slide
+:END:
+
+ #+BEGIN_NOTES
+ 
+ #+END_NOTES
+
+# Slide 12
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide12.png
+:reveal_background_size: 1000px
+:reveal_background_trans: slide
+:END:
+
+ #+BEGIN_NOTES
+ 
+ #+END_NOTES
+
+# Slide 13
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide13.png
+:reveal_background_size: 1000px
+:reveal_background_trans: slide
+:END:
+
+ #+BEGIN_NOTES
+ 
+ #+END_NOTES
+
+# Slide 14
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide14.png
+:reveal_background_size: 1000px
+:reveal_background_trans: slide
+:END:
+
+ #+BEGIN_NOTES
+ 
+ #+END_NOTES
+
+# Slide 15
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide15.png
+:reveal_background_size: 1000px
+:reveal_background_trans: slide
+:END:
+
+ #+BEGIN_NOTES
+ 
+ #+END_NOTES
+
+# Slide 16
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide16.png
+:reveal_background_size: 1000px
+:reveal_background_trans: slide
+:END:
+
+ #+BEGIN_NOTES
+ 
+ #+END_NOTES
+
+# Slide 17
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide17.png
+:reveal_background_size: 1000px
+:reveal_background_trans: slide
+:END:
+
+ #+BEGIN_NOTES
+ 
+ #+END_NOTES
+
+# Slide 18
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide18.png
+:reveal_background_size: 1000px
+:reveal_background_trans: slide
+:END:
+
+ #+BEGIN_NOTES
+ 
+ #+END_NOTES
+
+# Slide 19
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide19.png
+:reveal_background_size: 1000px
+:reveal_background_trans: slide
+:END:
+
+ #+BEGIN_NOTES
+ 
+ #+END_NOTES
+
+# Slide 20
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide20.png
+:reveal_background_size: 1000px
+:reveal_background_trans: slide
+:END:
+
+ #+BEGIN_NOTES
+ 
+ #+END_NOTES
+
+# Slide 21
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide21.png
+:reveal_background_size: 1000px
+:reveal_background_trans: slide
+:END:
+
+ #+BEGIN_NOTES
+ 
+ #+END_NOTES
+
+# Slide 22
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide22.png
+:reveal_background_size: 1000px
+:reveal_background_trans: slide
+:END:
+
+ #+BEGIN_NOTES
+ 
+ #+END_NOTES
+
+# Slide 23
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide23.png
+:reveal_background_size: 1000px
+:reveal_background_trans: slide
+:END:
+
+ #+BEGIN_NOTES
+ 
+ #+END_NOTES
+
+# Slide 24
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide24.png
+:reveal_background_size: 1000px
+:reveal_background_trans: slide
+:END:
+
+ #+BEGIN_NOTES
+ 
+ #+END_NOTES
+
+# Slide 25
+*  
+:PROPERTIES:
+:reveal_background: ./png/slide25.png
+:reveal_background_size: 1000px
+:reveal_background_trans: slide
+:END:
+
+ #+BEGIN_NOTES
+ 
+ #+END_NOTES
+
+
